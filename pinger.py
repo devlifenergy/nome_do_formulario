@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 # Coloque a URL completa do seu aplicativo Streamlit aqui
 URL_DO_APP = "https://wedja-nomedoformulario.streamlit.app/" 
 # Coloque o texto exato do botão que você quer clicar
-TEXTO_DO_BOTAO = "Finalizar e Gerar Relatório"
+TEXTO_DO_BOTAO = "Ping Button"
 
 def ping_e_clica():
     print(f"Iniciando o ping para: {URL_DO_APP}")
